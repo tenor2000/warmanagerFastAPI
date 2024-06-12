@@ -6,3 +6,7 @@ def getObjectbyId(listName, id):
             return obj
 
     raise HTTPException(status_code=404, detail="ID not found")
+
+def checkGameName(gameName: str):
+    if gameName != "frostgrave2e":
+        raise HTTPException(status_code=404, detail="Game not found")
