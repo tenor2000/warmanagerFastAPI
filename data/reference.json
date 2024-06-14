@@ -562,9 +562,84 @@
             "source": "Core Rulebook"
         }
     ],
+    "permanentInjuryTable": [
+        {
+            "id": 1,
+            "rollRange": [1,2],
+            "name": "Lost Toes",
+            "effect": "The spellcaster has lost one or more toes and suffers a permanent -1 penalty to all Move Rolls. This injury can be received twice, with a cumulative effect of -2 to all Move Rolls. Any further Lost Toes results must be re-rolled.",
+            "code": {"move": -1},
+            "maxCumulative": 2
+        },
+        {
+            "id": 2,
+            "rollRange": [3,4,5,6],
+            "name": "Smashed leg",
+            "effect": "The spellcaster suffers permanent bone or muscle damage in their leg and suffers a permanent -2 Move penalty. This injury can be received twice, with a cumulative effect of -4 to Move. Any further Smashed Leg results must be re- rolled.",
+            "code": {"move": -2},
+            "maxCumulative": 2
+        },
+        {
+            "id": 3,
+            "rollRange": [7,8,9,10],
+            "name": "Crushed Arm",
+            "effect": "The spellcaster suffers permanent bone or muscle damage in their arm and suffers a permanent -1 Fight penalty. This injury can be received twice, with a cumulative effect of -2 Fight. Any further Crushed Arm results must be re-rolled.",
+            "code": {"fight": -1},
+            "maxCumulative": 2
+        },
+        {
+            "id": 4,
+            "rollRange": [11,12],
+            "name": "Lost Fingers",
+            "effect":"The spellcaster has lost one or more fingers and suffers a permanent -1 Shoot penalty. This injury can be received twice, with a cumulative effect of -2 Shoot. Any further Lost Fingers results must be re-rolled.",
+            "code": {"shoot": -1},
+            "maxCumulative": 2
+        },
+        {
+            "id": 5,
+            "rollRange": [13,14],
+            "name": "Never Quite as Strong",
+            "effect": "Due to internal injuries, the spellcaster never quite returns to full Health and starts every game at -1 Health. This injury can be received twice, with a cumulative effect of -2 Health. Any further Never Quite as Strong results must be re-rolled.",
+            "code": {"health": -1},
+            "maxCumulative": 2
+        },
+        {
+            "id": 6,
+            "rollRange": [15,16],
+            "name": "Psychological Scars",
+            "effect": "The spellcaster's physical injuries fully heal, but the mental trauma remains, causing a permanent -1 Will penalty. This injury can be received twice, with a cumulative effect of -2 Will. Any further Psychological Scars results must be re- rolled.",
+            "code": {"will": -2},
+            "maxCumulative": 2
+        },
+        {
+            "id": 7,
+            "rollRange": [17,18],
+            "name": "Niggling Injury",
+            "effect": "The spellcaster's injury just never quite heals, and they are forced to use herbs, ointments, or minor magic to keep the pain at bay. The spellcaster must spend 30gc on these treatments before each game or start each game at -3 Health. This injury can be received twice - in which case the payment increases to 40gc and the penalty to -4 Health. Any further Niggling Injury results must be re-rolled. A 10gc discount applies to these payments for each apothecary in the warband.",
+            "code": {"special": -3},
+            "maxCumulative": 2
+        },
+        {
+            "id": 8,
+            "rollRange": [19],
+            "name": "Smashed Jaw",
+            "effect": "The spellcaster suffered a broken jaw that never quite healed properly. The spellcaster has some difficulty with speaking, which affects their ability to lead their warband. Whenever this figure activates, it can only activate a maximum of two soldiers in its phase (instead of the normal three). So, an apprentice with a Smashed Jaw could only activate two soldiers in the Apprentice phase. If this injury is received a second time, the number of soldiers that may also activate in the phase is decreased to one. Any further Smashed Jaw results must be re-rolled.",
+            "code": {"special": -1},
+            "maxCumulative": 1
+        },
+        {
+            "id": 9,
+            "rollRange": [20],
+            "name": "Lost Eye",
+            "effect": "One of the figure's eyes has been damaged and rendered useless. It suffers a -1 to its Combat Roll whenever it is the target of a shooting attack. If a spellcaster receives two Lost Eye permanent injuries, they are effectively blind. If the warband's wizard fails to successfully cast Miraculous Cure (page 126) to remove permanent injuries (note that a wizard may cast this spell on themselves or on their apprentice) in the following Out of Game spells step of the post-game sequence, the spellcaster must retire from exploring Frostgrave and is considered 'dead' for game purposes.",
+            "code": {"special": -1},
+            "maxCumulative": 2
+        }
+    ],
     "randomEncounterTable": [
         {
             "id": 1,
+            "firstRollRange": [1,2,3,4,5,6,7,8,9,10,11,12],
             "name": "Level 1 Encounter",
             "source": "Core Rulebook",
             "rollResults": [
@@ -593,6 +668,7 @@
         },
         {
             "id": 2,
+            "firstRollRange": [ 13,14,15,16,17,18 ],
             "name": "Level 2 Encounter",
             "source": "Core Rulebook",
             "rollResults": [
@@ -621,6 +697,7 @@
         },
         {
             "id": 3,
+            "firstRollRange": [ 19,20 ],
             "name": "Level 3 Encounter",
             "source": "Core Rulebook",
             "rollResults": [
@@ -1621,10 +1698,72 @@
     "statuses": {
         "0": "Dead",
         "1": "Active",
-        "2": "Badly Injured",
+        "2": "Badly Wounded",
         "7": "Hired",
         "8": "For Hire",
         "9": "Vacant"
+    },
+    "survivalTables": {
+        "soldierTable": [
+            {
+                "id": 1,
+                "name": "Dead",
+                "rollRange": [1,2,3,4],
+                "effect": "The soldier has been killed and should be removed from the Wizard Sheet. Any items this soldier was carrying are lost.",
+                "status": 0
+            },
+            {
+                "id": 2,
+                "name": "Badly Wounded",
+                "rollRange": [5,6,7,8],
+                "effect": "The soldier is injured. They can remain in the warband, and on the Wizard Sheet, but they cannot participate in the next game while they are recovering from their wounds. After missing one game, they will return for the next game with full Health.",
+                "status": 2
+            },
+            {
+                "id": 3,
+                "name": "Full recovery",
+                "rollRange": [9,10,11,12,13,14,15,16,17,18,19,20],
+                "effect": "The soldier recovers quickly from their ordeal and will return for the next game with full Health.",
+                "status": 1
+            }
+        ],
+        "wizardTable": [
+            {
+                "id": 1,
+                "name": "Dead",
+                "rollRange": [1,2],
+                "effect": "The spellcaster doesn't survive their injuries. See the section on recruiting new warband members in 'Spending Treasure' (page 103) for what to do when your wizard or apprentice dies.",
+                "status": 0
+            },
+            {
+                "id": 2,
+                "name": "Permanent Injury",
+                "rollRange": [3,4],
+                "effect": "The spellcaster suffers an injury that never fully heals. Roll on the Permanent Injury Table below to determine the exact nature of the injury. Otherwise, the figure returns for the next game with full Health.",
+                "status": 1
+            },
+            {
+                "id": 3,
+                "name": "Badly Wounded",
+                "rollRange": [5,6],
+                "effect": "The spellcaster has received a major injury that will take time to heal. The player has a choice. They can either play the next game without the injured spellcaster, or can pay 150gc for medical treatment. A 100gc discount applies to this amount if there is an apothecary in the warband. If the wizard does not have the appropriate amount, they are allowed to go into debt to pay this fee. However, the wizard may not spend any gold until this debt is paid in full.",
+                "status": 2
+            },
+            {
+                "id": 4,
+                "name": "Close Call",
+                "rollRange": [7,8],
+                "effect": "The spellcaster escapes with no major injury, but loses all the items that they were carrying. Items from the General Arms and Armour Table (page 33) are replaced for free.",
+                "status": 1
+            },
+            {
+                "id": 5,
+                "name": "Full Recovery",
+                "rollRange": [9,10,11,12,13,14,15,16,17,18,19,20],
+                "effect": "The spellcaster’s injuries proved to be relatively minor, and they return at full strength in the next game.",
+                "status": 1
+            }
+        ]
     },
     "templates": {
         "wizard": {
