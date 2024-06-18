@@ -1,9 +1,11 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import JSONResponse
 from pydantic import BaseModel
 from typing import List, Optional
 import json
-from helperFunc import getObjectbyId, checkGameName
+import os
+from helperFunc import getObjectbyId, checkGameName, combineReferenceData
 
 app = FastAPI()
 
@@ -26,6 +28,16 @@ with open('data/reference.json') as f:
 def getGameData(gameName):
     checkGameName(gameName)
     return json_data
+
+# Get All Reference Data
+@app.get("/{gameName}/refData.json")
+def getFullReferenceData(gameName: str):
+    print(f"Checking game: {gameName}")
+    checkGameName(gameName)
+    print(f"Combining reference data for game: {gameName}")
+    combinedData = combineReferenceData(gameName)
+    print(f"Combined data: {combinedData}")
+    return JSONResponse(content=combinedData)
 
 # Get lists or entries
 @app.get("/{gameName}/{listName}")

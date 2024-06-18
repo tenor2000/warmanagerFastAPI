@@ -1,0 +1,242 @@
+[
+    {
+        "id": 1,
+        "type": "Standard",
+        "source": "Core Rulebook",
+        "stats": {
+            "class": "Thug",
+            "move": 6,
+            "fight": 2,
+            "shoot": 0,
+            "armor": 10,
+            "will": -1,
+            "health": 10,
+            "cost": 0,
+            "notes": "Hand Weapon"
+        }
+    },
+    {
+        "id": 2,
+        "type": "Standard",
+        "source": "Core Rulebook",
+        "stats": {
+            "class": "Thief",
+            "move": 7,
+            "fight": 1,
+            "shoot": 0,
+            "armor": 10,
+            "will": 0,
+            "health": 10,
+            "cost": 0,
+            "notes": "Dagger"
+        }
+    },
+    {
+        "id": 3,
+        "type": "Standard",
+        "source": "Core Rulebook",
+        "stats": {
+            "class": "Warhound",
+            "move": 8,
+            "fight": 1,
+            "shoot": 0,
+            "armor": 10,
+            "will": -2,
+            "health": 8,
+            "cost": 10,
+            "notes": "Animal, Cannot carry treasure or items"
+        }
+    },
+    {
+        "id": 4,
+        "type": "Standard",
+        "source": "Core Rulebook",
+        "stats": {
+            "class": "Infantryman",
+            "move": 6,
+            "fight": 3,
+            "shoot": 0,
+            "armor": 11,
+            "will": 0,
+            "health": 10,
+            "cost": 50,
+            "notes": "Two-Handed Weapon, Light Armor"
+        }
+    },
+    {
+        "id": 5,
+        "type": "Standard",
+        "source": "Core Rulebook",
+        "stats": {
+            "class": "Man-at-Arms",
+            "move": 6,
+            "fight": 3,
+            "shoot": 0,
+            "armor": 12,
+            "will": 1,
+            "health": 12,
+            "cost": 75,
+            "notes": "Hand Weapon, Shield, Light Armor"
+        }
+    },
+    {
+        "id": 6,
+        "type": "Standard",
+        "source": "Core Rulebook",
+        "stats": {
+            "class": "Apothecary",
+            "move": 6,
+            "fight": 1,
+            "shoot": 0,
+            "armor": 10,
+            "will": 3,
+            "health": 12,
+            "cost": 75,
+            "notes": "Staff, Healing Potion"
+        }
+    },
+    {
+        "id": 7,
+        "type": "Specialist",
+        "source": "Core Rulebook",
+        "stats": {
+            "class": "Archer",
+            "move": 6,
+            "fight": 1,
+            "shoot": 2,
+            "armor": 11,
+            "will": 0,
+            "health": 10,
+            "cost": 75,
+            "notes": "Bow, Quiver, Dagger, Light Armor"
+        }
+    },
+    {
+        "id": 8,
+        "type": "Specialist",
+        "source": "Core Rulebook",
+        "stats": {
+            "class": "Crossbowman",
+            "move": 6,
+            "fight": 1,
+            "shoot": 2,
+            "armor": 11,
+            "will": 0,
+            "health": 10,
+            "cost": 75,
+            "notes": "Crossbow, Quiver, Dagger, Light Armor"
+        }
+    },
+    {
+        "id": 9,
+        "type": "Specialist",
+        "source": "Core Rulebook",
+        "stats": {
+            "class": "Treasure Hunter",
+            "move": 7,
+            "fight": 3,
+            "shoot": 0,
+            "armor": 11,
+            "will": 2,
+            "health": 12,
+            "cost": 100,
+            "notes": "Hand Weapon, Dagger, Light Armor"
+        }
+    },
+    {
+        "id": 10,
+        "type": "Specialist",
+        "source": "Core Rulebook",
+        "stats": {
+            "class": "Tracker",
+            "move": 7,
+            "fight": 1,
+            "shoot": 2,
+            "armor": 11,
+            "will": 1,
+            "health": 12,
+            "cost": 100,
+            "notes": "Staff, Bow, Quiver, Light Armor"
+        }
+    },
+    {
+        "id": 11,
+        "type": "Specialist",
+        "source": "Core Rulebook",
+        "stats": {
+            "class": "Knight",
+            "move": 5,
+            "fight": 4,
+            "shoot": 0,
+            "armor": 13,
+            "will": 1,
+            "health": 12,
+            "cost": 125,
+            "notes": "Hand Weapon, Dagger, Shield, Heavy Armor"
+        }
+    },
+    {
+        "id": 12,
+        "type": "Specialist",
+        "source": "Core Rulebook",
+        "stats": {
+            "class": "Templar",
+            "move": 5,
+            "fight": 4,
+            "shoot": 0,
+            "armor": 12,
+            "will": 1,
+            "health": 12,
+            "cost": 125,
+            "notes": "Two-Handed Weapon, Heavy Armor"
+        }
+    },
+    {
+        "id": 13,
+        "type": "Specialist",
+        "source": "Core Rulebook",
+        "stats": {
+            "class": "Ranger",
+            "move": 7,
+            "fight": 2,
+            "shoot": 2,
+            "armor": 11,
+            "will": 2,
+            "health": 12,
+            "cost": 125,
+            "notes": "Bow, Quiver, Hand Weapon, Light Armor"
+        }
+    },
+    {
+        "id": 14,
+        "type": "Specialist",
+        "source": "Core Rulebook",
+        "stats": {
+            "class": "Barbarian",
+            "move": 6,
+            "fight": 4,
+            "shoot": 0,
+            "armor": 10,
+            "will": 3,
+            "health": 14,
+            "cost": 125,
+            "notes": "Two-Handed Weapon, Dagger"
+        }
+    },
+    {
+        "id": 15,
+        "type": "Specialist",
+        "source": "Core Rulebook",
+        "stats": {
+            "class": "Marksman",
+            "move": 5,
+            "fight": 2,
+            "shoot": 2,
+            "armor": 12,
+            "will": 1,
+            "health": 12,
+            "cost": 125,
+            "notes": "Crossbow, Quiver, Hand Weapon, Heavy Armor"
+        }
+    }
+]
