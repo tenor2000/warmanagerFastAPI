@@ -54,5 +54,13 @@
         "maxRange": "--",
         "notes": "-2 Fight.",
         "source": "Core Rulebook"
+    },
+    {
+        "id": 108,
+        "name": "Quiver",
+        "damageMod": "--",
+        "maxRange": "--",
+        "notes": "Required for Bow and Crossbow",
+        "source": "Core Rulebook"
     }
 ]

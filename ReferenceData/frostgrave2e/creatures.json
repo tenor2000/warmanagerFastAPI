@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "name": "Bear",
+        "class": "Bear",
         "type": "Animal",
         "move": 6,
         "fight": 4,
@@ -14,7 +14,7 @@
     },
     {
         "id": 2,
-        "name": "Boar",
+        "class": "Boar",
         "type": "Animal",
         "move": 6,
         "fight": 2,
@@ -27,7 +27,7 @@
     },
     {    
         "id": 3,
-        "name": "Giant Rat",
+        "class": "Giant Rat",
         "type": "Animal",
         "move": 6,
         "fight": 0,
@@ -40,7 +40,7 @@
     },
     {
         "id": 4,
-        "name": "Ice Spider",
+        "class": "Ice Spider",
         "type": "Animal",
         "move": 6,
         "fight": 1,
@@ -53,7 +53,7 @@
     },
     {
         "id": 5,
-        "name": "Ice Toad",
+        "class": "Ice Toad",
         "type": "Animal",
         "move": 4,
         "fight": 2,
@@ -66,7 +66,7 @@
     },
     {
         "id": 6,
-        "name": "Snow Leopard",
+        "class": "Snow Leopard",
         "type": "Animal",
         "move": 8,
         "fight": 3,
@@ -79,7 +79,7 @@
     },
     {
         "id": 7,
-        "name": "White Gorilla",
+        "class": "White Gorilla",
         "type": "Animal",
         "move": 6,
         "fight": 4,
@@ -92,7 +92,7 @@
     },
     {
         "id": 8,
-        "name": "Wild Dog",
+        "class": "Wild Dog",
         "type": "Animal",
         "move": 8,
         "fight": 0,
@@ -105,7 +105,7 @@
     },
     {
         "id": 9,
-        "name": "Wolf",
+        "class": "Wolf",
         "type": "Animal",
         "move": 8,
         "fight": 1,
@@ -118,7 +118,7 @@
     },
     {
         "id": 10,
-        "name": "Small Construct",
+        "class": "Small Construct",
         "type": "Construct",
         "move": 6,
         "fight": 1,
@@ -131,7 +131,7 @@
     },
     {
         "id": 11,
-        "name": "Medium Construct",
+        "class": "Medium Construct",
         "type": "Construct",
         "move": 5,
         "fight": 3,
@@ -144,7 +144,7 @@
     },
     {
         "id": 12,
-        "name": "Large Construct",
+        "class": "Large Construct",
         "type": "Construct",
         "move": 4,
         "fight": 4,
@@ -157,7 +157,7 @@
     },
     {
         "id": 13,
-        "name": "Imp",
+        "class": "Imp",
         "type": "Demon",
         "move": 6,
         "fight": 1,
@@ -170,7 +170,7 @@
     },
     {
         "id": 14,
-        "name": "Minor Demon",
+        "class": "Minor Demon",
         "type": "Demon",
         "move": 6,
         "fight": 3,
@@ -183,7 +183,7 @@
     },
     {
         "id": 15,
-        "name": "Major Demon",
+        "class": "Major Demon",
         "type": "Demon",
         "move": 6,
         "fight": 5,
@@ -196,7 +196,7 @@
     },
     {
         "id": 16,
-        "name": "Frost Giant",
+        "class": "Frost Giant",
         "type": "Misc",
         "move": 6,
         "fight": 5,
@@ -209,7 +209,7 @@
     },
     {
         "id": 17,
-        "name": "Giant Worm",
+        "class": "Giant Worm",
         "type": "Misc",
         "move": 7,
         "fight": 4,
@@ -222,7 +222,7 @@
     },
     {
         "id": 18,
-        "name": "Snow Troll",
+        "class": "Snow Troll",
         "type": "Misc",
         "move": 4,
         "fight": 4,
@@ -235,7 +235,7 @@
     },
     {
         "id": 19,
-        "name": "Werewolf",
+        "class": "Werewolf",
         "type": "Misc",
         "move": 7,
         "fight": 4,
@@ -248,7 +248,7 @@
     },
     {
         "id": 20,
-        "name": "Armoured Skeleton",
+        "class": "Armoured Skeleton",
         "type": "Undead",
         "move": 6,
         "fight": 2,
@@ -261,7 +261,7 @@
     },
     {
         "id": 21,
-        "name": "Animated Skull",
+        "class": "Animated Skull",
         "type": "Undead",
         "move": 3,
         "fight": 0,
@@ -274,7 +274,7 @@
     },
     {
         "id": 22,
-        "name": "Ghoul",
+        "class": "Ghoul",
         "type": "Undead",
         "move": 6,
         "fight": 2,
@@ -287,7 +287,7 @@
     },
     {
         "id": 23,
-        "name": "Skeleton",
+        "class": "Skeleton",
         "type": "Undead",
         "move": 6,
         "fight": 1,
@@ -300,7 +300,7 @@
     },
     {
         "id": 24,
-        "name": "Skeleton Archer",
+        "class": "Skeleton Archer",
         "type": "Undead",
         "move": 6,
         "fight": 0,
@@ -313,7 +313,7 @@
     },
     {
         "id": 25,
-        "name": "Vampire",
+        "class": "Vampire",
         "type": "Undead",
         "move": 7,
         "fight": 4,
@@ -326,7 +326,7 @@
     },
     {
         "id": 26,
-        "name": "Wraith",
+        "class": "Wraith",
         "type": "Undead",
         "move": 6,
         "fight": 2,
@@ -339,7 +339,7 @@
     },
     {
         "id": 27,
-        "name": "Zombie",
+        "class": "Zombie",
         "type": "Undead",
         "move": 4,
         "fight": 1,
