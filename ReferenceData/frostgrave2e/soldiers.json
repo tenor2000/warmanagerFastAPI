@@ -12,7 +12,7 @@
         "health": 10,
         "cost": 0,
         "permItemSlots": [102],
-        "notes": "Hand Weapon"
+        "notes": null
     },
     {
         "id": 2,
@@ -27,7 +27,7 @@
         "health": 10,
         "cost": 0,
         "permItemSlots": [101],
-        "notes": "Dagger"
+        "notes": null
     },
     {
         "id": 3,
@@ -42,7 +42,7 @@
         "health": 8,
         "cost": 10,
         "permItemSlots": [],
-        "notes": "Animal, Cannot carry treasure or items"
+        "notes": "Animal (Cannot carry treasure or items)"
     },
     {
         "id": 4,
@@ -57,7 +57,7 @@
         "health": 10,
         "cost": 50,
         "permItemSlots": [103,202],
-        "notes": "Two-Handed Weapon, Light Armor"
+        "notes": null
     },
     {
         "id": 5,
@@ -72,7 +72,7 @@
         "health": 12,
         "cost": 75,
         "permItemSlots": [102,201,203],
-        "notes": "Hand Weapon, Shield, Light Armor"
+        "notes": null
         
     },
     {
@@ -88,7 +88,7 @@
         "health": 12,
         "cost": 75,
         "permItemSlots": [104],
-        "notes": "Staff, Healing Potion"
+        "notes": "Starts game with a 'Healing Potion'"
     },
     {
         "id": 7,
@@ -103,7 +103,7 @@
         "health": 10,
         "cost": 75,
         "permItemSlots": [105,108,101,202],
-        "notes": "Bow, Quiver, Dagger, Light Armor"
+        "notes": null
     },
     {
         "id": 8,
@@ -118,7 +118,7 @@
         "health": 10,
         "cost": 75,
         "permItemSlots": [106,108,101,202],
-        "notes": "Crossbow, Quiver, Dagger, Light Armor"
+        "notes": null
     },
     {
         "id": 9,
@@ -133,7 +133,7 @@
         "health": 12,
         "cost": 100,
         "permItemSlots": [102,101,202],
-        "notes": "Hand Weapon, Dagger, Light Armor"
+        "notes": null
     },
     {
         "id": 10,
@@ -148,7 +148,7 @@
         "health": 12,
         "cost": 100,
         "permItemSlots": [104,105,108,202],
-        "notes": "Staff, Bow, Quiver, Light Armor"
+        "notes": null
     },
     {
         "id": 11,
@@ -163,7 +163,7 @@
         "health": 12,
         "cost": 125,
         "permItemSlots": [102,101,201,203],
-        "notes": "Hand Weapon, Dagger, Shield, Heavy Armor"
+        "notes": null
     },
     {
         "id": 12,
@@ -178,7 +178,7 @@
         "health": 12,
         "cost": 125,
         "permItemSlots": [103,203],
-        "notes": "Two-Handed Weapon, Heavy Armor"
+        "notes": null
     },
     {
         "id": 13,
@@ -193,7 +193,7 @@
         "health": 12,
         "cost": 125,
         "permItemSlots": [105,108,102,202],
-        "notes": "Bow, Quiver, Hand Weapon, Light Armor"
+        "notes": null
     },
     {
         "id": 14,
@@ -208,7 +208,7 @@
         "health": 14,
         "cost": 125,
         "permItemSlots": [103,101],
-        "notes": "Two-Handed Weapon, Dagger"
+        "notes": null
     },
     {
         "id": 15,
@@ -223,6 +223,6 @@
         "health": 12,
         "cost": 125,
         "permItemSlots": [106,108,102,203],
-        "notes": "Crossbow, Quiver, Hand Weapon, Heavy Armor"
+        "notes": null
     }
 ]
