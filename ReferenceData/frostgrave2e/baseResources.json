@@ -10,6 +10,9 @@
         "id": 2002,
         "name": "Giant Cauldron",
         "effects": "Confers a +1 to Casting Rolls for Brew Potion.",
+        "bonusToRoll": {
+            "1002": 1
+        },
         "cost": 250,
         "source": "Core Rulebook"
     },
@@ -17,6 +20,10 @@
         "id": 2003,
         "name": "Enchanter's Workshop",
         "effects": "Confers a +1 to Casting Rolls for Animate Construct and Embed Enchantment.",
+        "bonusToRoll": {
+            "301": 1, 
+            "303": 1 
+        },
         "cost": 400,
         "source": "Core Rulebook"
     },
@@ -24,6 +31,9 @@
         "id": 2004,
         "name": "Crystal Ball",
         "effects": "Confers a +1 to Casting Rolls for Reveal Secret.",
+        "bonusToRoll": {
+            "705": 1
+        },
         "cost": 250,
         "source": "Core Rulebook"
     },
@@ -31,6 +41,9 @@
         "id": 2005,
         "name": "Scriptorium",
         "effects": "Confers a +1 to Casting Rolls for Write Scroll.",
+        "bonusToRoll": {
+            "708": 1
+        },
         "cost": 200,
         "source": "Core Rulebook"
     },

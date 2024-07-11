@@ -1,8 +1,8 @@
 {
     "wizard": {
-        "id": null,
+        "id": 0,
         "name": "Timmy",
-        "classid": 0,
+        "classId": 0,
         "level": 0,
         "health": 14,
         "currenthealth": 14,
@@ -14,7 +14,14 @@
         "cost": 0,
         "status": 1,
         "itemSlots": [0, 0, 0, 0, 0],
-        "statMods": [],
+        "statMods": {
+            "move": 0,
+            "fight": 0,
+            "shoot": 0,
+            "armor": 0,
+            "will": 0,
+            "health": 0
+        },
         "gold": 400,
         "apprentice": {
             "name": "",
@@ -22,7 +29,14 @@
             "status": 9,
             "armor": 10,
             "itemSlots": [0, 0, 0, 0],
-            "statMods": [],
+            "statMods": {
+                "move": 0,
+                "fight": 0,
+                "shoot": 0,
+                "armor": 0,
+                "will": 0,
+                "health": 0
+            },
             "cost": 100
         },
         "primarySpellIds": [],

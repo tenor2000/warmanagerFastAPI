@@ -17,6 +17,7 @@
         "id": 203,
         "name": "Heavy Armor",
         "armorMod": 2,
+        "moveMod": -1,
         "notes": "-1 Move",
         "source": "Core Rulebook"
     }

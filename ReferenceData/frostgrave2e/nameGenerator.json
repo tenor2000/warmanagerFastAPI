@@ -1,7 +1,7 @@
 {
     "wizard": [
         "Merida",
-        "Gandofino",
+        "Gandolf",
         "Splendiferous",
         "Saruman",
         "Gargamel",
@@ -10,9 +10,11 @@
         "Rasputin",
         "Gwydion",
         "Edwin",
-        "Glorfindel",
+        "Dynaheir",
         "Cerberus",
-        "Sebastian"
+        "Sebastian",
+        "Xan",
+        "Fizban"
     ],
     "apprentice": [
         "Tim",
@@ -37,7 +39,8 @@
         "Keith",
         "Toby",
         "Mark",
-        "Jefferson"
+        "Jefferson",
+        "Larry"
     ],
     "soldier": [
         "Brutus",
@@ -67,17 +70,25 @@
         "Thomas",
         "Henry",
         "Joseph",
-        "Edward"
+        "Edward",
+        "Cornelius",
+        "Larry",
+        "Percy",
+        "Ned"
     ],
     "animal": [
         "Sandy",
         "Daisy",
         "Coco",
-        "Pika",
+        "Lassie",
         "Jub-Jub",
         "Dogmeat",
         "Dogbert",
         "Scooby",
-        "Snoopy"
+        "Snoopy",
+        "Marley",
+        "Peanut",
+        "Cujo",
+        "Eddie"
     ]
 }

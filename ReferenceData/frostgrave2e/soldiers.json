@@ -88,7 +88,7 @@
         "health": 12,
         "cost": 75,
         "permItemSlots": [104],
-        "notes": "Starts game with a 'Healing Potion'"
+        "notes": "Starts each game with a 'Healing Potion'"
     },
     {
         "id": 7,

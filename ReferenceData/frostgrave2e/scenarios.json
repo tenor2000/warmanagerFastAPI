@@ -1,7 +1,7 @@
 [
     {
         "id": 101,
-        "name": "The well of Dreams and Sorrows",
+        "name": "The Well of Dreams and Sorrows",
         "requirements": "Well",
         "setup": "Place a well in the middle of the table. The rest of the table should be crowded with terrain as per a standard game of Frostgrave. Place the central treasure token 6\" away from the well, but equidistant between the starting table edges. Place the other treasure tokens as normal.",
         "treasure": null,
@@ -9,14 +9,20 @@
             {
                 "id": 1,
                 "type": "checkbox",
-                "description": "+50 experience points if the wizard drinks from the well.",
-                "xp": 50
+                "category": "wizardDrink",
+                "description": "If the wizard drinks from the well.",
+                "shortDesc": "Wizard drank from well",
+                "xpValue": 50,
+                "xpLimit": null
             },
             {
                 "id": 2,
                 "type": "checkbox",
-                "description": "+30 experience points if the apprentice drinks from the well.",
-                "xp": 30
+                "category": "apprenticeDrink",
+                "description": "If the apprentice drinks from the well.",
+                "shortDesc": "Apprentice drank from well",
+                "xpValue": 30,
+                "xpLimit": null
             }
         ]
     },
@@ -38,14 +44,20 @@
             {
                 "id": 1,
                 "type": "checkbox",
+                "category": "wizardTower",
                 "description": "+40 experience points if the wizard sets foot inside the tower.",
-                "xp": 40
+                "shortDesc": "Wizard entered tower",
+                "xpValue": 40,
+                "xpLimit": null
             },
             {
                 "id": 2,
                 "type": "checkbox",
+                "category": "apprenticeTower",
                 "description": "+20 experience points if the apprentice sets foot inside the tower.",
-                "xp": 20
+                "shortDesc": "Apprentice entered tower",
+                "xpValue": 20,
+                "xpLimit": null
             }
         ]
     },
@@ -66,8 +78,11 @@
             {
                 "id": 1,
                 "type": "count",
-                "description": "+10 experience points for each medium construct destroyed by a wizard or their warband (this replaces the 5 experience points normally gained for killing an uncontrolled creature).",
-                "xp": 10
+                "category": "constructsDestroyed",
+                "description": "For each medium construct destroyed by a wizard or their warband (this replaces the 5 experience points normally gained for killing an uncontrolled creature).",
+                "shortDesc": "Medium Constructs destroyed",
+                "xpValue": 10,
+                "xpLimit": null
             }
         ]
     },
